@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+			var obj = {a: 1, b: 2, c: 3};
+			alert(obj["c"]);
+			alert(obj.c);
+			
+			var obj = {Коля: '1000', Вася: '500', Петя: '200'};
+			alert(obj.Петя+", "+obj.Коля);
+			
+			var date = new Date;
+			var week = {1: "Понедельник", 2:"Вторник", 3:"Среда", 4:"Четверг", 5:"Пятница", 6:"Суббота", 7:"Воскресенье"};
+			alert(week[date.getDay()]);
+			
+			var day = 5;
+			alert(week[day]);
+		</script>
+	</body>
+</html>
