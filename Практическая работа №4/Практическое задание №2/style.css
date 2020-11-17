@@ -1,0 +1,47 @@
+body{
+	font-size: 40px;
+}
+
+
+
+#li_1{
+	color:red;
+	text-decoration:overline;
+	text-decoration-style:solid;
+	text-decoration-color:red;
+}
+
+#li_2{
+	color:orange;
+	text-decoration:underline line-through;
+	text-decoration-style:double;
+	text-decoration-color:orange;
+}
+
+#li_3{
+	color:yellow;
+	text-decoration:underline;
+	text-decoration-style:dotted;
+	text-decoration-color:yellow;
+}
+
+#li_4{
+	color:#7FFF00;
+	text-decoration:underline;
+	text-decoration-style:wavy;
+	text-decoration-color:#7FFF00;
+}
+
+#li_5{
+	color:blue;
+	text-decoration:underline line-through;
+	text-decoration-style:dashed;
+	text-decoration-color:blue;
+}
+
+#li_6{
+	color:#00008B;
+	text-decoration:underline line-through;
+	text-decoration-style:double;
+	text-decoration-color:#00008B;
+}

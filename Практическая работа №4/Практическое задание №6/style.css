@@ -1,0 +1,17 @@
+.chart {
+	width: 20em;
+	height: 20em;
+	display: flex;
+	align-items: flex-end;
+	margin: 50px;
+}
+
+.chart > div {
+	flex: 1;
+	margin: .5em;
+	text-align: center;
+}
+.chart b{
+	position: relative;
+	top: -17px;
+}

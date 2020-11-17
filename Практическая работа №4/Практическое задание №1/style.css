@@ -1,0 +1,28 @@
+#p1:before{
+	content:'\2018' 
+}
+#p1:after{
+	content:'\2019' 
+}
+
+#p2:before, #p2:after{
+	content:'\201A' 
+}
+
+#p3:before{
+	content:'\201C' 
+}
+#p3:after{
+	content:'\201D' 
+}
+
+#p4:before, #p4:after{
+	content:'\201E' 
+}
+
+#p5:before{
+	content:'\AB' 
+}
+#p5:after{
+	content:'\BB' 
+}
