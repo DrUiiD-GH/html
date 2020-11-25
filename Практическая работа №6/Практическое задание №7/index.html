@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+			function test(a){
+				var sum = 0;
+				for(var i=0; i<a.length;i++){
+					sum+=a[i];
+				}
+				var result = Math.round(sum/a.length);
+				return result;
+			}
+			
+			alert(test([12, 15, 20, 25, 59, 79]));
+			
+			
+			
+			function factorial(a){
+				var result = 1;
+				for(var i =1; i<=a; i++){
+					result *=i;
+				}
+				return result;
+			}
+			alert(factorial(4));
+		</script>
+	</body>
+</html>
