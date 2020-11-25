@@ -1,0 +1,34 @@
+div{
+	width: 100px;
+	height:50px;
+	margin: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.block_1:hover{
+	transform: rotate(90deg);
+	transition: 1s;
+}
+
+.block_2:hover{
+	transform: scale(1.2, 0.5);
+	transition: 1s;
+}
+
+.block_3:hover{
+	transform: skewX(20deg);
+	transition: 1s;
+}
+
+.block_4:hover{
+	transform: translate(-20px, 20px);
+	transition: 1s;
+}
+
+.block_5:hover{
+	transform: matrix(1.2,0,0.5,1.2,50,0);
+	transition: 1s;
+}
