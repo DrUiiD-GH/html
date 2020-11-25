@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+			let str1='я учу javascript!';
+			document.write(str1.length+"</br>");
+			document.write(str1.substr(2, 3)+', '+str1.substr(6, 10)+"</br>");
+			document.write(str1.substring(2, 5)+', '+str1.substring(6, 16)+"</br>");
+			document.write(str1.slice(2, 5)+', '+str1.slice(6, -1)+"</br>");
+			document.write(str1.indexOf('учу')+"</br>");
+			
+			function socr(str, n){
+				var result;
+				if(str.length>n) result = str.substr(0, n)+'...';
+				else result = str;
+				return result;
+			};
+			let str = 'Дана переменная str, в которой хранится какой-либо текст.';
+			document.write(socr(str, 10));
+			
+			
+		</script>
+	</body>
+</html>
