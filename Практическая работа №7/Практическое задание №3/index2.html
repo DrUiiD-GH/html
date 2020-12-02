@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<button id="first" onclick="func1(this)">Первый</button>
+		<button id="second" onclick="func2()">Второй</button>
+		<script>
+			function func1(elem){
+				elem.disabled = 'disabled';
+			}
+			
+			function func2(){
+				document.getElementById('first').removeAttribute('disabled');
+			}
+		</script>
+	</body>
+</html>
